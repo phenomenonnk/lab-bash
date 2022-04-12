@@ -120,7 +120,7 @@ Admin@DESKTOP-9N9UGQ5 MINGW64 ~/IH-Labs/lab-bash (master)
 $ cd lorem
 
 Admin@DESKTOP-9N9UGQ5 MINGW64 ~/IH-Labs/lab-bash/lorem (main)
-$ sed -et -ET at.txt
+$ sed -et -ET at.txt (or sed -i 's/et/ET/g' at.txt)
 sed: unknown option -- T
 Usage: sed [OPTION]... {script-only-if-no-other-script} [input-file]...
 
